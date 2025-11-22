@@ -14,7 +14,7 @@
     <?php include template_dir("frontend/includes/body-begin.php") ?>
     <main id="wrapper">
         <?php include template_dir("frontend/includes/header.php") ?>
-        <?php // echo $this->yieldSection('content') ?>
+        <?php echo $this->yieldSection('content') ?>
         <?php include template_dir("frontend/includes/footer.php") ?>
     </main>
     <?php include template_dir("frontend/includes/body-end.php") ?>
